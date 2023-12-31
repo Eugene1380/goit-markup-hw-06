@@ -538,8 +538,8 @@ img {
   align-items: center;
 }
 
-.footer-button:hover,
-.footer-button:focus {
+.footer-btn:hover,
+.footer-btn:focus {
   background-color: #404bbf;
 }
 
