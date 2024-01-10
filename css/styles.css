@@ -1117,7 +1117,7 @@ label {
 
 /* Mobile Menu */
 
-mobile-menu-btn {
+.mobile-menu-btn {
   display: flex;
   align-items: center;
   justify-content: center;
