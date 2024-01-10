@@ -224,7 +224,7 @@ img {
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
-  .post-section {
+  .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
       url(../images/hero/img-hero-tablet@2x.jpg);
@@ -240,7 +240,7 @@ img {
 }
 
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
-  .post-section {
+  .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
       url(../images/hero/img-hero@2x.jpg);
@@ -1185,7 +1185,7 @@ label {
   margin-bottom: 40px;
 }
 
-mobile-menu-link.current {
+.mobile-menu-link.current {
   color: #404bbf;
 }
 
