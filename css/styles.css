@@ -320,7 +320,7 @@ img {
 
 /* Section 2. Features */
 
-icon-place {
+.icon-place {
   display: none;
   padding: 24px 24px;
   border-radius: 4px;
