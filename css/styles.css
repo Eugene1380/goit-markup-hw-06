@@ -204,8 +204,10 @@ img {
 .hero {
   background: #2e2f42;
   flex-shrink: 0;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)),
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
     url(../images/hero/img-hero-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -218,40 +220,50 @@ img {
 
 @media (min-resolution: 192dpi) {
   .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
       url(../images/hero/img-hero-mobile@2x.jpg);
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
       url(../images/hero/img-hero-tablet.jpg);
   }
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
       url(../images/hero/img-hero-tablet@2x.jpg);
   }
 }
 
 @media screen and (min-width: 1158px) {
   .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
       url(../images/hero/img-hero.jpg);
   }
 }
 
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
   .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
       url(../images/hero/img-hero@2x.jpg);
   }
 }
@@ -480,14 +492,23 @@ img {
 }
 
 .company-employees-list {
+  /* display: flex;
+  flex-wrap: wrap;
+  gap: 72px; */
   display: flex;
   flex-wrap: wrap;
   gap: 72px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
   .company-employees-list {
-    gap: 64px 24px;
+    /* gap: 64px 24px; */
+    flex-direction: row;
+    column-gap: 24px;
+    row-gap: 64px;
   }
 }
 
@@ -512,7 +533,8 @@ img {
 
 @media screen and (min-width: 768px) {
   .company-employees-card {
-    width: calc((100% - 24px) / 2);
+    /* width: calc((100% - 24px) / 2); */
+    width: 264px;
   }
 }
 
@@ -1119,13 +1141,16 @@ label {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.accept-checkbox:checked+.form-agreement .form-agreement-checkbox {
+.accept-checkbox:checked + .form-agreement .form-agreement-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
 
-.accept-checkbox:checked+.form-agreement .form-agreement-checkbox .icon-check-mark {
+.accept-checkbox:checked
+  + .form-agreement
+  .form-agreement-checkbox
+  .icon-check-mark {
   fill: #f4f4fd;
 }
 
@@ -1157,7 +1182,7 @@ label {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input:focus+.form-icon {
+.form-input:focus + .form-icon {
   fill: #4d5ae5;
 }
 
