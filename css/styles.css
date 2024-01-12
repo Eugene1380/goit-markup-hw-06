@@ -384,13 +384,7 @@ img {
 
 .features {
   background-color: #fff;
-  padding: 120px 0;
-}
-
-@media screen and (min-width: 768px) {
-  .features {
-    padding: 96px 0;
-  }
+  padding: 96px 0;
 }
 
 @media screen and (min-width: 1158px) {
