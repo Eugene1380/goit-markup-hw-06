@@ -937,6 +937,10 @@ img {
   color: #fff;
 }
 
+.footer-input:focus {
+  border-color: #4d5ae5;
+}
+
 .footer-btn {
   color: #fff;
   font-weight: 500;
@@ -953,6 +957,11 @@ img {
   min-height: 40px;
   cursor: pointer;
   border: none;
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+  background-color: #404bbf;
 }
 
 .button-icon-telegram {
