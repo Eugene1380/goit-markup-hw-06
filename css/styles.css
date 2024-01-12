@@ -45,6 +45,7 @@ img {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    /* padding: 0 15px; */
   }
 }
 
@@ -198,7 +199,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .header-contacts-item {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.48px;
   }
@@ -485,8 +486,8 @@ img {
 
 @media screen and (min-width: 768px) and (max-width: 1157.98px) {
   .section-three-container {
-    margin-right: 108px;
-    margin-left: 108px;
+    margin-right: auto;
+    margin-left: auto;
     padding-left: 0;
     padding-right: 0;
   }
