@@ -764,9 +764,11 @@ img {
   }
 }
 
+
+
 .footer-logo {
   display: block;
-  margin-bottom: 16px;
+  margin: 0 0 16px;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -774,8 +776,26 @@ img {
   text-transform: uppercase;
   line-height: 1.17;
   color: #4d5ae5;
-  padding: 16px;
+  padding: 0px;
+  align-self: center;
 }
+
+@media screen and (min-width: 768px) {
+  .footer-logo {
+    /* margin-right: 120px; */
+    align-self: flex-start;
+    padding: 0px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .footer-logo {
+    align-self: flex-start;
+    padding: 0px;
+  }
+}
+
+
 
 .logo-style-footer {
   color: #f4f4fd;
