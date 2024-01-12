@@ -387,6 +387,12 @@ img {
   padding: 120px 0;
 }
 
+@media screen and (min-width: 768px) {
+  .features {
+    padding: 96px 0;
+  }
+}
+
 .features-list {
   display: flex;
   flex-wrap: wrap;
