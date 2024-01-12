@@ -393,6 +393,12 @@ img {
   }
 }
 
+@media screen and (min-width: 1158px) {
+  .features {
+    padding: 120px 0;
+  }
+}
+
 .features-list {
   display: flex;
   flex-wrap: wrap;
