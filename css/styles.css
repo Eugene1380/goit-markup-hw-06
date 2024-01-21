@@ -36,24 +36,20 @@ img {
 
 .container {
   max-width: 320px;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 16px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    /* padding: 0 15px; */
   }
 }
 
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
   }
 }
 
@@ -79,12 +75,7 @@ img {
 
 .header-container {
   display: flex;
-  justify-content: space-between;
   max-width: 1158px;
-  /* padding-left: 15px;
-  padding-right: 15px; */
-  margin-left: auto;
-  margin-right: auto;
   align-items: center;
 }
 
