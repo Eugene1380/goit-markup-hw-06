@@ -21,7 +21,8 @@ ul {
   padding: 0;
 }
 
-/* Adaptive img */
+/* ---------- Adaptive img ---------- */
+
 img {
   display: block;
   max-width: 100%;
